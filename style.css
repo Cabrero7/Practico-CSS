@@ -1,0 +1,129 @@
+.titulo1{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    text-transform:capitalize;
+    background-color: rgb(99, 99, 99);
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    box-shadow: 0pc 4px 8px black;
+}
+.titulo2{
+    text-transform: capitalize;
+}
+.linea{
+        border-top: 3px solid rgb(100, 100, 100);
+        margin: 20px 0;      
+}
+.parrafo1{
+    color: rgb(56, 56, 56);
+    text-transform: capitalize;
+    text-align:center;
+    text-decoration:overline rgb(201, 201, 201);
+}
+.cita{
+    color: rgba(154, 199, 184, 0.486);
+    background-color: rgb(2, 36, 12);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.caja1{
+    border: 1px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px black;
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+.caja2{
+    border: 3px solid black;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 10px 15px black;
+    background-color: yellowgreen;
+}
+
+.caja3{
+    position: relative;
+    padding: 20px;
+    background-color: aquamarine;
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+.caja4{
+    position: absolute;
+    background-color: rgb(0, 56, 37);
+    padding: 10px 20px;
+    top: 45px;
+    right: 10px;
+    color: aliceblue;
+    box-shadow: 0px 4px 8px black;
+}
+body{
+    background-color:rgb(208, 224, 255);
+}
+h1{
+    font-size: 2em;
+    text-align: left;
+}
+section{
+    width: 80%;
+    margin: 10px auto;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0pc 4px 8px black;
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-color: rgb(252, 178, 178);
+        color: rgb(39, 37, 37);
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    section{
+        width: 90%;
+        padding: 10px;
+    }
+}
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+}
+.grid-item{
+    background-color: rgb(243, 82, 82);
+    padding: 10px;
+    color: rgb(33, 57, 190);
+    text-align: center;
+    border-radius: 2px;
+}
+.animación{
+    width: 100px;
+    height: 20px;
+    background-color: blue;
+    transition: background-color 0.5s;
+    text-align: center;
+    color: green;
+    margin-bottom: 10px;
+}
+.mover{
+    width: 60px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: green;
+    position: relative;
+    animation: mover 1s linear infinite;
+    text-align: center;
+    color:blue;
+}
+@keyframes mover {
+    0% {
+        transform: translateX();
+    }
+    100% {
+        transform: translateX(500px);
+    }
+}
