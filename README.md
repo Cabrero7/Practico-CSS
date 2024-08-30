@@ -19,6 +19,6 @@ Implementa una cuadrícula utilizando CSS Grid con un diseño responsivo que se 
 cuatro elementos de grid que se distribuyen uniformemente con un espaciado definido.
 11. Principios de Animaciones en CSS
 Muestra ejemplos de animaciones CSS, incluyendo la transición de color al hacer hover sobre un elemento, y un movimiento continuo de
-izquierda a derecha utilizando la propiedad @keyframes.
+izquierda a derecha utilizando la propiedad keyframes.
 Para visualizar este proyecto:
 A través del siguiente link: https://cabrero7.github.io/Practico-CSS o descargando el archivo index.html y ejecutandolo en algun navegador
