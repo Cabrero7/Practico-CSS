@@ -20,5 +20,6 @@ cuatro elementos de grid que se distribuyen uniformemente con un espaciado defin
 11. Principios de Animaciones en CSS
 Muestra ejemplos de animaciones CSS, incluyendo la transición de color al hacer hover sobre un elemento, y un movimiento continuo de
 izquierda a derecha utilizando la propiedad keyframes.
--Para visualizar este proyecto:
+-Ejecución
+Para visualizar este proyecto:
 A través del siguiente link: https://cabrero7.github.io/Practico-CSS o descargando el archivo index.html y ejecutandolo en algun navegador
